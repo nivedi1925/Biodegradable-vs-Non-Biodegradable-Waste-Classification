@@ -1,6 +1,11 @@
 # Biodegradable-vs-Non-Biodegradable-Waste-Classification
 A deep learning project that classifies images of waste into biodegradable and non-biodegradable categories using transfer learning with ResNet50. This is a computer vision project aimed at supporting waste segregation through intelligent image classification.
 
+Dataset Source : [Kaggle](https://www.kaggle.com/datasets/rayhanzamzamy/non-and-biodegradable-waste-dataset)<br>
+Sample Images:
+<img align="centre" alt="GIF" src="https://github.com/nivedi1925/Biodegradable-vs-Non-Biodegradable-Waste-Classification/blob/main/images/Screenshot%20from%202025-06-30%2000-03-53.png" />
+
+
 📌 Project Overview
 
     Goal: Automate classification of waste for better recycling and disposal.
@@ -28,9 +33,6 @@ A deep learning project that classifies images of waste into biodegradable and n
     Applied data augmentation (random flip, rotation)
 
 
-Dataset Source : [Kaggle](https://www.kaggle.com/datasets/rayhanzamzamy/non-and-biodegradable-waste-dataset)<br>
-Sample Images:
-<img align="centre" alt="GIF" src="https://github.com/nivedi1925/Biodegradable-vs-Non-Biodegradable-Waste-Classification/blob/main/images/Screenshot%20from%202025-06-30%2000-03-53.png" />
 
 🧠 Model Architecture
 
