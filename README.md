@@ -74,6 +74,12 @@ Observations:
 
     Potential improvements: more epochs, early stopping, regularization, fine-tuning more layers.
 
+Screanshots of Web application:
+![](images/ezgif.com-video-to-gif-converter(1).gif)
+![](images/Screenshot from 2025-07-07 18-05-26.png)![](images/Screenshot from 2025-07-07 18-05-10.png)
+
+
+
 
 
 🧩 Future Work
