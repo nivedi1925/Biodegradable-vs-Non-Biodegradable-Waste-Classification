@@ -76,7 +76,8 @@ Observations:
 
 Screanshots of Web application:
 ![](images/ezgif.com-video-to-gif-converter(1).gif)
-![](images/Screenshot from 2025-07-07 18-05-26.png)![](images/Screenshot from 2025-07-07 18-05-10.png)
+
+![](images/bio1.png)![](images/images/bio2.png)
 
 
 
