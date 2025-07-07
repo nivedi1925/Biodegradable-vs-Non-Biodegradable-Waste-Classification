@@ -89,6 +89,8 @@ To build an intelligent system that:
 - Likely due to low number of epochs( Contraints here is limited computational capabilities).
 - Potential improvements: more epochs, early stopping, regularization, fine-tuning more layers.
 
+
+
 🎥 Screenshots of Web application:
 
 
@@ -102,19 +104,13 @@ To build an intelligent system that:
 
 🧩 Future Work
 
-    Fine-tune more layers in ResNet50
-
-    Try other models like MobileNetV2 or EfficientNet
-
-    Deploy model as a web app with Flask or Streamlit
-
-    Use ExplanableAI tools such as LIME
+- Fine-tune more layers in ResNet50
+- Try other models like MobileNetV2 or EfficientNet
+- Deploy model as a web app with Flask or Streamlit
+- Use ExplanableAI tools such as LIME
 
 🤝 Acknowledgments
-
-    Dataset by contributors on Kaggle
-
-    ResNet50 by Kaiming He et al.
-
-    TensorFlow & Keras for model development
+- Dataset by contributors on Kaggle
+- ResNet50 by Kaiming He et al.
+- TensorFlow & Keras for model development
 
