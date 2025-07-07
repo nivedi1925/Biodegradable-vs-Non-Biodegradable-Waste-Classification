@@ -1,24 +1,28 @@
 # Biodegradable-vs-Non-Biodegradable-Waste-Classification
-A deep learning project that classifies images of waste into biodegradable and non-biodegradable categories using transfer learning with ResNet50. This is a computer vision project aimed at supporting waste segregation through intelligent image classification.
+This computer vision project aims to automate waste segregation by classifying images of waste into biodegradable and non-biodegradable categories. Leveraging the power of deep learning and transfer learning, the project utilizes the ResNet50 architecture to perform image classification with high accuracy. The final model is deployed as a web application to demonstrate real-time predictions.
 
 Dataset Source : [Kaggle](https://www.kaggle.com/datasets/rayhanzamzamy/non-and-biodegradable-waste-dataset)<br>
 Sample Images:
 <img align="centre" alt="GIF" src="https://github.com/nivedi1925/Biodegradable-vs-Non-Biodegradable-Waste-Classification/blob/main/images/Screenshot%20from%202025-06-30%2000-03-53.png" />
 
+🎯 Objective
 
-📌 Project Overview
+To build an intelligent system that:
 
-    Goal: Automate classification of waste for better recycling and disposal.
+    Helps in automated waste sorting
 
-    Model Used: ResNet50 (pretrained on ImageNet).
+    Supports environmental sustainability through smart waste management
 
-    Dataset: Non and Biodegradable Waste Dataset from Kaggle.
+    Provides a user-friendly web interface for image-based classification
 
-    Accuracy Achieved:
+    
+🔍 Key Features
 
-        ✅ Validation Accuracy: 98%
+    Transfer Learning with ResNet50: Utilizes pretrained ResNet50 for feature extraction and fine-tuning for binary classification.
 
-        ✅ Test Accuracy: 90%
+    Image Preprocessing: Includes resizing, normalization, and data augmentation to improve model generalization.
+
+    Web App Deployment: Simple UI built with Streamlit (or Flask) for uploading waste images and getting real-time predictions.
 
 📁 Dataset Details
 
@@ -32,6 +36,18 @@ Sample Images:
 
     Applied data augmentation (random flip, rotation)
 
+
+🧰 Tech Stack
+
+    Language: Python
+
+    Deep Learning Framework: TensorFlow / Keras
+
+    Model: ResNet50 (Transfer Learning)
+
+    Web Framework: Streamlit 
+
+    Others:  NumPy, Matplotlib, Pandas
 
 
 🧠 Model Architecture
@@ -47,6 +63,7 @@ Sample Images:
         Dropout (optional)
 
         Dense (Softmax for 2-class classification)
+        
 🏋️ Training Details
 
     Epochs: 4
@@ -66,7 +83,7 @@ Sample Images:
     Loss	~0.02	~0.30
 
 
-Observations:
+🔎  Observations:
 
     Slight overfitting observed (val accuracy > test accuracy).
 
@@ -74,10 +91,10 @@ Observations:
 
     Potential improvements: more epochs, early stopping, regularization, fine-tuning more layers.
 
-Screanshots of Web application:
+🎥 Screenshots of Web application:
 ![](images/ezgif.com-video-to-gif-converter(1).gif)
 
-![](images/bio1.png)![](images/images/bio2.png)
+![](images/bio1.png) ![](images/images/bio2.png)
 
 
 
